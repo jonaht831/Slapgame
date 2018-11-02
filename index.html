@@ -8,10 +8,24 @@
     <title>SlapGame</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 
 <body>
+
+    <h1>Health: <span id="health">100</span></h1>
+    <h2>Hits: <span id="hits">0</span></h2>
+    <h2>Name: <span id="name">Strike Freedom</span></h2>
+    <img src="goodgundam1.jpg" alt="Gundam1">
+
+    <footer>
+        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="slap()">Slap!</button>
+        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="punch()">Punch!</button>
+        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="kick()">Kick!</button>
+
+    </footer>
+
+
 
 
     <script src="app.js"></script>
