@@ -12,23 +12,43 @@
 </head>
 
 <body>
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-6 text-white">
+                <h1>Health: <span id="health">100</span></h1>
+                <h2>Hits: <span id="hits">0</span></h2>
+                <h2>Name: <span id="name">Strike Freedom</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="pics/gundam3.png" alt="Gundam1" height="400px">
 
-    <h1>Health: <span id="health">100</span></h1>
-    <h2>Hits: <span id="hits">0</span></h2>
-    <h2>Name: <span id="name">Strike Freedom</span></h2>
-    <img src="goodgundam1.jpg" alt="Gundam1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="punch()">Punch!</button>
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="sword()">Sword!</button>
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="gun()">RailGun!</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="giveFire()">Fire!</button>
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="giveSuper()">Super!</button>
+                <button type="button" class="btn btn-dark btn-lg btn-block" onclick="giveSpecial()">Special!</button>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-6">
+                <button type="button" class="btn btn-danger btn-lg btn-block" onclick="reset()">RESET</button>
 
-    <footer>
-        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="slap()">Slap!</button>
-        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="punch()">Punch!</button>
-        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="kick()">Kick!</button>
+            </div>
+        </div>
 
-    </footer>
-
-
-
-
-    <script src="app.js"></script>
+        <script src="app.js"></script>
+    </div>
 </body>
 
 </html>
